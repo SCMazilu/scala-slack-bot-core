@@ -75,6 +75,7 @@ object Color {
   val good = Color("good")
   val warning = Color("warning")
   val danger = Color("danger")
+  val darkBlue = Color("#003366")
 }
 
 case class ImageUrl(url: String) extends RichMessageElement
