@@ -1,6 +1,6 @@
 name := "slack-scala-bot-core"
 
-version := "0.2.1"
+version := "0.2.2-SNAPSHOT"
 
 scalaVersion := "2.11.6"
 
@@ -32,7 +32,7 @@ resolvers += "spray repo" at "http://repo.spray.io"
 
 publishMavenStyle := true
 
-publishTo := Some(Resolver.file("file",  new File("../mvn-repo")))
+//publishTo := Some(Resolver.file("file",  new File("../mvn-repo")))
 
 publishArtifact in Test := false
 
